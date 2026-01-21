@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>감성카페</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Noto Sans KR", sans-serif;
+      background-color: #f7f3ef;
+      color: #333;
+    }
+
+    header {
+      background-color: #6f4e37;
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 48px;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 18px;
+      opacity: 0.9;
+    }
+
+    section {
+      max-width: 1000px;
+      margin: auto;
+      padding: 50px 20px;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 40px;
+      color: #6f4e37;
+    }
+
+    .about {
+      text-align: center;
+      font-size: 17px;
+      line-height: 1.8;
+    }
+
+    .menu {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .menu-item {
+      background: white;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+
+    .menu-item h3 {
+      margin-top: 0;
+      color: #6f4e37;
+    }
+
+    .menu-item span {
+      float: right;
+      font-weight: bold;
+    }
+
+    .info {
+      text-align: center;
+      line-height: 2;
+    }
+
+    footer {
+      background: #2b2b2b;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>감성카페</h1>
+    <p>커피 한 잔에 담긴 여유와 감성</p>
+  </header>
+
+  <section>
+    <h2>카페 소개</h2>
+    <p class="about">
+      감성카페는 따뜻한 분위기 속에서<br>
+      향 좋은 커피와 달콤한 디저트를 즐길 수 있는 공간입니다.<br>
+      바쁜 일상 속, 잠시 쉬어갈 수 있는 감성 쉼터가 되겠습니다.
+    </p>
+  </section>
+
+  <section>
+    <h2>MENU</h2>
+    <div class="menu">
+      <div class="menu-item">
+        <h3>아메리카노 <span>₩3,500</span></h3>
+        <p>깊고 진한 원두의 풍미</p>
+      </div>
+      <div class="menu-item">
+        <h3>두쫀쿠프라페 <span>₩6,500</span></h3>
+        <p>부드러운 쫀득쿠키와 바삭하고 풍미있는 카다이프</p>
+      </div>
+      <div class="menu-item">
+        <h3>전남친 케이크 <span>₩5,000</span></h3>
+        <p>달콤한 블루베리향과 조화로운 크림치즈</p>
+      </div>
+      <div class="menu-item">
+        <h3>두쫀보 <span>₩110,000</span></h3>
+        <p>두바이쫀보를 만들기 위해 매일 노력합니다</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>오시는 길</h2>
+    <div class="info">
+      📍 울산광역시 중구<br>
+      ⏰ 매일 17:00 - 22:00<br>
+      ☎ 010-1234-5678
+    </div>
+  </section>
+
+  <footer>
+    © 2026 감성카페 | All Rights Reserved
+  </footer>
+
+</body>
+</html>
